@@ -1,0 +1,61 @@
+/* MOBILE */
+@media(max-width:768px){
+    header{
+        background-color: teal;
+        padding: 20px;
+    }
+    header>nav>ul{
+        float: none;
+    }
+    header>nav>ul>li{
+        display: block;
+    }
+    header>nav{
+        text-align: center;
+    }
+    .banner1{
+        background-color: skyblue;
+    }
+    .banner2{
+        background-image: url(../image/mobile.jpg);
+    }
+    .banner3{
+        background: linear-gradient(45deg, skyblue,teal);
+    }
+    .banner4{
+        background: repeating-linear-gradient(45deg, yellow, red);
+    }
+    .banner6{
+        background: repeating-linear-gradient(yellow, blue);
+    }
+}
+
+/* TABLE VERSION */
+@media(min-width:769px) and (max-width:1200px){
+    header{
+        background-color: skyblue;
+        padding: 20px;
+    }
+    header>nav{
+        text-align: center;
+    }
+    header>nav>ul{
+        float: none;
+    }
+    .banner1{
+        background-color: grey;
+    }
+    .banner2{
+        background-image: url(../image/tab.jpg);
+    }
+    .banner3{
+        background: linear-gradient(to left, grey,teal);
+    }
+    .banner4{
+        background: repeating-linear-gradient(45deg, grey, pink);
+    }
+    .banner6{
+        background: linear-gradient(green, grey);
+    }
+
+}
